@@ -1,7 +1,7 @@
-This is a Sample project to showcase some basic enterprise Java web application competency.
+This is a Sample project to showcase some basic enterprise Java web development.
 
 The web presentation layer will follow a standard MVC architecture of:
- - JSP templates as the view (containing HTML structure, CSS decorations, and Javascipt behavior).
+ - JSP templates as the view consistingn of HTML structure, CSS decorations, and Javascipt behavior.
  - RESTful Spring Controllers.
  - Plain old Java objects (POJO) models.
 
