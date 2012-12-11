@@ -3,13 +3,12 @@ This is a Sample project to showcase some basic enterprise Java web development.
 The web presentation layer will follow a standard MVC architecture of:
  - JSP templates as the view consisting of
    > HTML structure, CSS decorations, and Javascipt behavior.
+   > The client (browser) will interact with the server via JSON data exchange.
+   > I'll leverage the popular JQuery library to support interactive behavior.
  - RESTful Spring Controllers
    > HTTP request routing and param binding, view resolution, web aspects, etc.
  - Plain old Java objects (POJO) encapsulating logic of business entities.
 
-A services layer will seperate the above web presentation layer from the below data
-persistance layer. It provides an abstraction where to expose business operations to
-internal and external service consumers. It allows for service composition and orchestration,
-encapsulating service integration business logic, and may define transactional bounderies.
+A services layer will seperate the above web presentation layer from the below data persistance layer. It provides an abstraction where to expose business operations to internal and external service consumers. It allows for service composition and orchestration, encapsulating service integration business logic, and may define transactional bounderies.
 
 The persistance layer encapsulates all data mapping logic leveraging Spring support for simple JDBC.
