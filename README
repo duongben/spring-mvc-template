@@ -9,8 +9,7 @@ The web presentation layer will follow a standard MVC architecture of:
 
 A services layer will seperate the above web presentation layer from the below data
 persistance layer. It provides an abstraction where to expose business operations to
-internal and external service consumers. It allows for service composition and orchestration, 
+internal and external service consumers. It allows for service composition and orchestration,
 encapsulating service integration business logic, and may define transactional bounderies.
 
-The persistance layer encapsulates all data mapping logic leveraging the Spring frameworks
-support for simple JDBC.
+The persistance layer encapsulates all data mapping logic leveraging Spring support for simple JDBC.
